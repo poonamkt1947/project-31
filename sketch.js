@@ -53,10 +53,10 @@ function setup() {
     //    plinkos.push(new Plinko(j,375));
     // }
 
-     for (var j = 50; j <=width-10; j=j+50) 
-    {
-       plinkos.push(new Plinko(j,375));
-    }
+    //  for (var j = 50; j <=width-10; j=j+50) 
+    // {
+    //    plinkos.push(new Plinko(j,375));
+    // }
 }
  
 
@@ -90,9 +90,9 @@ function draw() {
   //    particles[j].display();
   //  }
 
-  for (var j = 0; j < particles.length; j++) {
-     particles[j].display();
-   }
+  // for (var j = 0; j < particles.length; j++) {
+  //    particles[j].display();
+  //  }
 
    for (var k = 0; k < divisions.length; k++) {
      
